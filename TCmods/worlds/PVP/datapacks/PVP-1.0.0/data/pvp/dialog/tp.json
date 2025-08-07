@@ -1,0 +1,1 @@
+{"title":"tp","type":"multi_action","actions":[{"label":"arena","action":{"type":"run_command","command":"trigger ttp set 1"}},{"label":"log","action":{"type":"run_command","command":"trigger ttp set 2"}},{"label":"sea","action":{"type":"run_command","command":"trigger ttp set 3"}}],"can_close_with_escape":false}

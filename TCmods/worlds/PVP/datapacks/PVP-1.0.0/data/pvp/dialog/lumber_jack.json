@@ -1,0 +1,22 @@
+{
+	"type":"confirmation",
+	"title":"Lumber Jack",
+	"label":"Apply Settings",
+	"yes":{
+		"label":"Select",
+		"action":{
+			"type":"run_command",
+			"command":"trigger tclass set 4"
+		}
+	},
+	"no":{
+		"label":"Cancel",
+		"action":{"type":"show_dialog","dialog":"pvp:class"}
+	},
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"the Lumber Jack class gets a hatchet"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type":"confirmation",
+	"title":"start round",
+	"label":"start",
+	"yes":{
+		"label":"Start",
+		"action":{
+			"type":"run_command",
+			"command":"trigger start set 1"
+		}
+	},
+	"no":{
+		"label":"Cancel"
+	},
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"starts a round"
+		}
+	]
+}

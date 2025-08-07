@@ -1,0 +1,55 @@
+{
+	"type":"minecraft:multi_action",
+	"title":"info",
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"this is an arena player verses player fighting game with classes."
+		}
+	],
+	"inputs":[
+		{
+			"key":"showCoordinates",
+			"type":"boolean",
+			"id":"showCoordinates",
+			"label":"ShowCoordinates",
+			"on_true":"1",
+			"on_false":"0"
+		},
+		{
+			"type":"number_range",
+			"id":"maxZoom",
+			"label":"MapZoomLevel",
+			"start":1,
+			"end":5,
+			"default":3,
+			"key":"zooOOOoom"
+		},
+		{
+			"id":"abc",
+			"label":"text",
+			"key":"abc",
+			"type":"text"
+		}
+	],
+	"actions":[
+		{
+			"label":"ApplySettings",
+			"action":{
+				"type":"dynamic/run_command",
+				"template":"scoreboard players set @s showCoords $(zooOOOoom)"
+			},
+			"width":20
+		}
+	],
+	"columns":2,
+	"exit_action":{
+		"label":"Cancel",
+		"action":{
+			"type":"run_command",
+			"command":"give @s dirt"
+		}
+	}
+}
+
+

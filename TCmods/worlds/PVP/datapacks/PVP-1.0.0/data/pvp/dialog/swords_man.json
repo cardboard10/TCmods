@@ -1,0 +1,22 @@
+{
+	"type":"confirmation",
+	"title":"Swords Man",
+	"label":"Apply Settings",
+	"yes":{
+		"label":"Select",
+		"action":{
+			"type":"run_command",
+			"command":"trigger tclass set 3"
+		}
+	},
+	"no":{
+		"label":"Cancel",
+		"action":{"type":"show_dialog","dialog":"pvp:class"}
+	},
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"the Swords Man class has high attack"
+		}
+	]
+}

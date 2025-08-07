@@ -1,0 +1,60 @@
+{
+	"type":"minecraft:multi_action",
+	"title":"SPEED",
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"hit the buttons below to change your SPEED."
+		}
+	],
+	"actions":[
+		{
+			"label":".3",
+			"action":{
+				"type":"run_command",
+				"command":"attribute @s minecraft:movement_speed base set .03"
+			},
+			"width":20
+		},
+		{
+			"label":".5",
+			"action":{
+				"type":"run_command",
+				"command":"attribute @s minecraft:movement_speed base set .05"
+			},
+			"width":20
+		},
+		{
+			"label":"1",
+			"action":{
+				"type":"run_command",
+				"command":"attribute @s minecraft:movement_speed base reset"
+			},
+			"width":20
+		},
+		{
+			"label":"2",
+			"action":{
+				"type":"run_command",
+				"command":"attribute @s minecraft:movement_speed base set .2"
+			},
+			"width":20
+		},
+		{
+			"label":"3",
+			"action":{
+				"type":"run_command",
+				"command":"attribute @s minecraft:movement_speed base set .3"
+			},
+			"width":20
+		}
+	],
+	"columns":5,
+	"exit_action":{
+		"label":"Cancel",
+		"action":{
+			"type":"run_command",
+			"command":"give @s dirt"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type":"confirmation",
+	"title":"Tank",
+	"label":"Apply Settings",
+	"yes":{
+		"label":"Select",
+		"action":{
+			"type":"run_command",
+			"command":"trigger tclass set 1"
+		}
+	},
+	"no":{
+		"label":"Cancel",
+		"action":{"type":"show_dialog","dialog":"pvp:class"}
+	},
+	"body":[
+		{
+			"type":"minecraft:item",
+			"item":{
+				"id":"minecraft:netherite_helmet"
+			}
+		},
+		{
+			"type":"plain_message",
+			"contents":"the Tank class has high health, low attack, and low speed"
+		}
+	]
+}
+

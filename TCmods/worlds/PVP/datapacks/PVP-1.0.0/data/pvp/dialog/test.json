@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Game Settings",
+  "body": [
+    { "type": "plain_message", "contents": "Toggle features and adjust values below." }
+  ],
+  "actions": [
+    {
+      "label": "Apply Settings",
+      "action": {
+        "type": "run_command",
+        "command": "function mypack:settings"
+      }
+    },
+    {
+      "label": "Reset to Defaults",
+      "action": {
+        "type": "run_command",
+        "command": "function mypack:settings_reset"
+      }
+    },
+    {
+      "label": "Reset",
+      "action": {
+        "type": "run_command",
+        "command": "function mypack:settings_reset",
+        "width":10
+      }
+    }
+  ],
+  "columns": 2,
+  "exit_action": {
+    "label": "Cancel"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "killed": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "you died",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dragon_head"
+    },
+    "title": "you died"
+  },
+  "requirements": [
+    [
+      "killed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
