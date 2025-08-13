@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:dirt"
+  },
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt",
+    "components":{
+      "minecraft:item_name":"dirty_boots",
+      "minecraft:equippable": {"slot": "feet"},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:dirt_feet",
+          "slot": "armor",
+          "type": "minecraft:scale",
+          "amount": 0.4, 
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:grity_feet",
+          "slot": "armor",
+          "type": "minecraft:movement_speed",
+          "amount": 0.2, 
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

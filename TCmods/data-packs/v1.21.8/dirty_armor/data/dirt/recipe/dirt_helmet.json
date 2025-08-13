@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:dirt"
+  },
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt",
+    "components":{
+      "minecraft:item_name":"dirty_hat",
+      "minecraft:equippable": {"slot": "head"},
+      "minecraft:attribute_modifiers": [{"id": "minecraft:dirt_hat", "slot": "armor", "type": "minecraft:scale", "amount": 0.5, "operation": "add_value"},{"id": "minecraft:dirt_hat", "slot": "armor", "type": "minecraft:entity_interaction_range", "amount": 15, "operation": "add_value"},{"id": "minecraft:dirt_hat", "slot": "armor", "type": "minecraft:block_interaction_range", "amount": 15, "operation": "add_value"}]
+    }
+  }
+}

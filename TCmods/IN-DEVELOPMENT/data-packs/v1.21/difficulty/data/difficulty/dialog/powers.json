@@ -1,0 +1,10 @@
+{
+	"type":"dialog_list",
+	"title":"difficulty",
+	"dialogs":[
+		"difficulty:advanced",
+		"difficulty:presets"
+	],
+	"can_close_with_escape":true,
+	"columns":1
+}

@@ -1,0 +1,46 @@
+{
+	"type":"minecraft:multi_action",
+	"title":"presets",
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":"this is an arena player verses player fighting game with classes."
+		}
+	],
+	"actions":[
+		{
+			"label":"ADVANDCED-OPTIONS",
+			"action":{
+				"type":"run_command",
+				"command":"trigger preset set -1"
+			},
+			"width":200
+		},
+		{
+			"label":"NONE",
+			"action":{
+				"type":"run_command",
+				"command":"trigger preset set 0"
+			},
+			"width":200
+		},
+		{
+			"label":"HULK",
+			"action":{
+				"type":"run_command",
+				"command":"trigger preset set 1"
+			},
+			"width":200
+		}
+	],
+	"columns":2,
+	"exit_action":{
+		"label":"Cancel",
+		"action":{
+			"type":"run_command",
+			"command":"give @s dirt"
+		}
+	}
+}
+
+

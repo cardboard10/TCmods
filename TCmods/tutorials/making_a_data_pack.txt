@@ -1,0 +1,64 @@
+intro
+	data-packs are amazing tools that can let you mold your minecraft world. you just need to know the general structure the only limit? well the main one ive found is how things look(se resoure packs).
+structure
+	folder(canbe a zip file)
+
+		<name_space>(minecraft if you want to replace vanilla files)
+			
+			advancement (holds advancements)
+			
+			cat_variant (textures and spawn conditions for cat varients)
+			
+			chicken_variant (textures and spawn conditions for chicken varients)
+
+			damage_type (attributes of damage and death messeges)
+			
+			dialog (custom UI screens!!!)
+
+			enchantment_provider (selection of enchantments for spesifec uses)
+
+			instrument (instruments for goat horns)
+
+			loot_table (loot from mobs, blocks, chests, etc)
+
+			pig_variant (textures and spawn conditions for pig varients)
+
+			structure (binary structure files with .nbt extention can get ones saved in game by going into the save file of the world you saved them in)
+
+			test_environment (a way to group game tests)
+
+			trial_spawner (configuration of trial spawners)
+			
+			trim_pattern (textures and name of patterns for trimming)
+
+			wolf_variant (textures and spawn conditions for wolf varients)
+
+			banner_pattern (textures and names to use for banner patterns)
+
+			chat_type (formmating of chat messegese)
+
+			cow_variant (textures and spawn conditions for cow varients)
+
+			datapacks (extra data-packs)
+
+			dimension_type (propertys of dimensions)
+
+			frog_variant (textures and spawn conditions for frog varients)
+
+			jukebox_song (jukebox song definitions)
+
+			painting_variant (size and texture of paintings)
+
+			recipe (recipes)
+
+			tags (collections of things. each sub folder defines tags of specific type  using .json files.)
+
+			test_instance (a test that can be run by the GameTest framework.)
+
+			trim_material (colors, ingredeients, and name of materials for trimming)
+
+			wolf_sound_variant (textures and spawn conditions for wolf varients)
+
+			worldgen (files for world generation)
+
+

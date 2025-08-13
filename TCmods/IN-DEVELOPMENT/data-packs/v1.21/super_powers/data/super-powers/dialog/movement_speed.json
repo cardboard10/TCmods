@@ -1,0 +1,23 @@
+{
+	"type":"minecraft:multi_action",
+	"title":"movement_speed",
+	"body":[
+		{
+			"type":"plain_message",
+			"contents":""
+		}
+	],
+	"actions":[
+		{"label":".1","action":{"type":"run_command","command":"trigger movement_speed set 1"},"width":20},
+		{"label":".25","action":{"type":"run_command","command":"trigger movement_speed set 25"},"width":20},
+		{"label":".50","action":{"type":"run_command","command":"trigger movement_speed set 50"},"width":20},
+		{"label":".75","action":{"type":"run_command","command":"trigger movement_speed set 75"},"width":20},
+		{"label":"1","action":{"type":"run_command","command":"trigger movement_speed set 10"},"width":20},
+		{"label":"25","action":{"type":"run_command","command":"trigger movement_speed set 250"},"width":20},
+		{"label":"50","action":{"type":"run_command","command":"trigger movement_speed set 500"},"width":20},
+		{"label":"75","action":{"type":"run_command","command":"trigger movement_speed set 750"},"width":20},
+		{"label":"100","action":{"type":"run_command","command":"trigger movement_speed set 1000"},"width":20},
+		{"label":"125","action":{"type":"run_command","command":"trigger movement_speed set 1250"},"width":20}
+	],
+	"columns":10
+}

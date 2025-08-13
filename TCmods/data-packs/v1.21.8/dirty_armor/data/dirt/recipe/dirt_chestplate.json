@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:dirt"
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt",
+    "components":{
+      "minecraft:item_name":"dirty_shirt",
+      "minecraft:equippable": {"slot": "chest"},
+      "minecraft:attribute_modifiers": [{"id": "minecraft:dirt_shirt", "slot": "armor", "type": "minecraft:scale", "amount": 0.8, "operation": "add_value"},{"id": "minecraft:dirt_shirt", "slot": "armor", "type": "minecraft:max_health", "amount": 20, "operation": "add_value"}]
+    }
+  }
+}

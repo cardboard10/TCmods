@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:dirt"
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dirt",
+    "components":{
+      "minecraft:item_name":"dirty_pants",
+      "minecraft:equippable": {"slot": "legs"},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:dirt_legs", 
+          "slot": "armor", 
+          "type": "minecraft:scale", 
+          "amount": 0.7,
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:grity_feet",
+          "slot": "armor",
+          "type": "minecraft:jump_strength",
+          "amount": 0.5, 
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:grity_feet",
+          "slot": "armor",
+          "type": "minecraft:step_height",
+          "amount": 3, 
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:grity_feet",
+          "slot": "armor",
+          "type": "minecraft:water_movement_efficiency",
+          "amount": 3, 
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:grity_feet",
+          "slot": "armor",
+          "type": "minecraft:safe_fall_distance",
+          "amount": 3, 
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}
