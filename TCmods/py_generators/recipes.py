@@ -93,3 +93,7 @@ out=L[9]
 
 x((name+"/"+"data"+"/"+name+"/"+"recipe/"+rname+".json"),recipe.replace("a:",a).replace("b:",b).replace("c:",c).replace("d:",d).replace("e:",e).replace("f:",f).replace("g:",g).replace("h:",h).replace("i:",i).replace("out",out))
 #x((name+"/"+"data"+"/"+name+"/"+"recipe/"+rname+".json"),recipe.replace("a:",input("a")).replace("b:",input("b")).replace("c:",input("c")).replace("d:",input("d")).replace("e:",input("e")).replace("f:",input("f")).replace("g:",input("g")).replace("h:",input("h")).replace("i:",input("i")).replace("o:",input("out")))
+
+
+import py_compile
+py_compile.compile()
