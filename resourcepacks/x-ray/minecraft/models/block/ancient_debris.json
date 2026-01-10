@@ -1,0 +1,6 @@
+{
+  "parent": "xray:ore",
+  "textures": {
+    "all": "minecraft:block/ancient_debris_side"
+  }
+}

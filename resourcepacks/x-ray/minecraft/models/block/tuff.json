@@ -1,0 +1,6 @@
+{
+  "parent": "xray:clear",
+  "textures": {
+    "all": "minecraft:block/tuff"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "xray:/ore",
+  "textures": {
+    "all": "minecraft:block/nether_bricks"
+  },
+  "elements":[
+    {
+      "from":[-16,-16,-16],
+      "to":[32,32,32],
+      "faces":{
+        "down":{"texture":"#all"},
+        "up":{"texture":"#all"},
+        "north":{"texture":"#all"},
+        "east":{"texture":"#all"},
+        "south":{"texture":"#all"},
+        "west":{"texture":"#all"}
+      },
+      "light_emission": 15
+    }
+  ]
+}

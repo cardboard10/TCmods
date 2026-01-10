@@ -1,0 +1,7 @@
+{
+  "parent": "xray:ore",
+  "textures": {
+    "all": "minecraft:block/lava_still",
+    "partical": "minecraft:block/lava_still"
+  }
+}

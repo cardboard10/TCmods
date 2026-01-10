@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"text":"barrel", "italic":false},
+                                "minecraft:item_model": "minecraft:barrel",
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "tutorial.bamboo_slab",
+                                        "tutorial.item_frame_block"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1,
+                                    "Fixed": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

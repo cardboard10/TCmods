@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"text":"DRILL", "italic":true, "color":"blue"},
+                                "minecraft:item_model": "minecraft:dropper",
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "tutorial.bamboo_mosaic",
+                                        "tutorial.item_frame_block"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1,
+                                    "Fixed": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

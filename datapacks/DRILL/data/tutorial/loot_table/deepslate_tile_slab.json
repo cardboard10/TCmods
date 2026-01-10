@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"text":"deepslate_tile_slab", "italic":false},
+                                "minecraft:item_model": "minecraft:deepslate_tile_slab",
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "tutorial.deepslate_tile_slab",
+                                        "tutorial.item_frame_block"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1,
+                                    "Fixed": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

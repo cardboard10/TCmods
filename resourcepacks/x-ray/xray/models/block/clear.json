@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "elements":[
+    {
+      "from":[0,0,0],
+      "to":[16,16,16],
+      "faces":{
+        "down":{"texture":"#all","cullface":"up"}
+      }
+    }
+  ]
+}

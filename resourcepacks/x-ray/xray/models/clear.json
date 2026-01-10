@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures":{
+    "all":"xray:block/clear",
+    "clear":"xray:block/clear"
+  },
+  "elements":[
+    {
+      "from":[0,0,0],
+      "to":[1,1,1],
+      "faces":{
+        "down":{"texture":"#clear","cullface":"up"}
+      }
+    }
+  ]
+}
